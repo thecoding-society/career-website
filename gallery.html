@@ -32,3 +32,18 @@
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + LeadMark main styles -->
 	<link rel="stylesheet" href="assets/css/styles.css">
+
+    <script>
+        
+        window.addEventListener('load', function () {
+            console.log('All assets are loaded');
+            // Set preloader to fade out
+            document.getElementsByClassName('preloader')[0].style.display = 'none';
+
+            // Set content to visible
+            document.getElementsByClassName('content')[0].style.display = 'block';
+            
+        });
+
+
+    </script>
